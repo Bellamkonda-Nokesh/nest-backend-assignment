@@ -1,4 +1,4 @@
-<img width="825" height="809" alt="Register User Example" src="https://github.com/user-attachments/assets/ac845aed-fe09-4da7-b18f-aaa79fe1696b" /># NestJS Backend Assignment
+# NestJS Backend Assignment
 
 ## Features
 
@@ -81,7 +81,7 @@ _App will be available on http://localhost:3000_
 ## Example Postman Requests & Responses
 
 - **Register:**
-    ![Register User Example](https://drive.google.com/file/d/1RagK4kD5Xi-gWtxRpJS2nqwkVZ1l0Yc7/view?usp=sharin)
+    ![Register User Example](https://drive.google.com/file/d/1RagK4kD5Xi-gWtxRpJS2nqwkVZ1l0Yc7/view?usp=sharing)
 - **Login and JWT:**
     ![Login Example](https://drive.google.com/file/d/1hVz4rODGUZpVb2eFm8dIsjJjO_Go4v7w/view?usp=sharing )
 - **List Users:**
