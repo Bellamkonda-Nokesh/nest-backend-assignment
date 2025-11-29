@@ -80,22 +80,37 @@ _App will be available on http://localhost:3000_
 
 ## Example Postman Requests & Responses
 
-- **Register:**
-    ![Register User Example](https://drive.google.com/file/d/1RagK4kD5Xi-gWtxRpJS2nqwkVZ1l0Yc7/view?usp=sharing)
-- **Login and JWT:**
-    ![Login Example](https://drive.google.com/file/d/1hVz4rODGUZpVb2eFm8dIsjJjO_Go4v7w/view?usp=sharing )
-- **List Users:**
-    ![Get Users Example]( https://drive.google.com/file/d/10osBDyniTIup4qr5XNN2yxtW2plfpRy1/view?usp=sharing)
-- **Update User:**
-    ![Update User Example](https://drive.google.com/file/d/1Stwjwux96yGBpW1hvI8m2-IjkL4knkGD/view?usp=sharing)
-- **Delete User:**
-    ![Delete User Example](https://drive.google.com/file/d/1OjXF2HJTbJ_eLd9U4cSCNOe9aYLtee0-/view?usp=sharing)
-- **Validation Error:**
-    ![Validation Error Example]( https://drive.google.com/file/d/1BOMI-45MGiOKxfR6etHSkECyK7OzXD1b/view?usp=sharing)
-- **Unauthorized Error:**
-    ![Unauthorized Example]( https://drive.google.com/file/d/1vutQmKCTHQphAqcHztHv-M_2JMwlqUdJ/view?usp=sharing)
-- **Unit Test Passing:**
-    ![Unit Test Example]( https://drive.google.com/file/d/10EArWr49LPCKXlfKKtO26Pe2G15Jalrs/view?usp=sharing)
+- **Register:**  
+  ![Register User Example](images/register-user.png)
+  - *Demonstrates submitting a POST request to `/users` with a username and password to register a new user. The response confirms creation with the user's ID, username, and role.*
+
+- **Login and JWT:**  
+  ![Login Example](images/login-example.png)
+  - *Shows a POST request to `/auth/login` with username and password. The response provides a JWT (`access_token`) needed for accessing protected endpoints.*
+
+- **List Users:**  
+  ![Get Users Example](images/get-users-example.png)
+  - *Shows a GET request to `/users` with a valid Bearer Token. The response lists all registered users and their roles, proving token-based access control is implemented.*
+
+- **Update User:**  
+  ![Update User Example](images/update-user-example.png)
+  - *Displays a PATCH request to `/users/7` with Bearer Token auth to update user info. The response returns the updated user data after changes.*
+
+- **Delete User:**  
+  ![Delete User Example](images/delete-user-example.png)
+  - *Shows a DELETE request to `/users/7` with a valid Bearer Token. The response (`1`) confirms the user was successfully deleted.*
+
+- **Unauthorized Error:**  
+  ![Unauthorized Example](images/unauthorized-example.png)
+  - *Shows a GET request to `/users/9999` without a Bearer Token. The response is a 401 Unauthorized error, demonstrating that protected routes cannot be accessed without authentication.*
+
+- **Update User:**  
+  ![Update User Example](images/update-user-example.png)
+  - *Shows a PATCH request to `/users/7` with Bearer Token authentication. The response returns the updated user details, confirming the update operation worked.*
+
+- **Validation Error:**  
+  ![Validation Error Example](images/validation-error-example.png)
+  - *Displays a POST request to `/users` with an invalid (empty) username and missing password. The response is a 400 Bad Request error with validation messages, proving input validation is enforced by the API.*
 
 > 👉 **Full Test/Output Record:**  
 > For a detailed demo with all outputs (screenshots/video), see: [Assignment Proof Outputs](https://drive.google.com/file/d/1BbRWADxY9RF2IveNskdH1Vmg8r-V07DP/view?usp=sharing)  
