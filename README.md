@@ -1,4 +1,4 @@
-# NestJS Backend Assignment
+<img width="825" height="809" alt="Register User Example" src="https://github.com/user-attachments/assets/ac845aed-fe09-4da7-b18f-aaa79fe1696b" /># NestJS Backend Assignment
 
 ## Features
 
@@ -81,7 +81,7 @@ _App will be available on http://localhost:3000_
 ## Example Postman Requests & Responses
 
 - **Register:**
-    ![Register User Example](https://drive.google.com/file/d/1RagK4kD5Xi-gWtxRpJS2nqwkVZ1l0Yc7/view?usp=sharing)
+    ![Register User Example](https://drive.google.com/file/d/1RagK4kD5Xi-gWtxRpJS2nqwkVZ1l0Yc7/view?usp=sharin)
 - **Login and JWT:**
     ![Login Example](https://drive.google.com/file/d/1hVz4rODGUZpVb2eFm8dIsjJjO_Go4v7w/view?usp=sharing )
 - **List Users:**
@@ -98,7 +98,7 @@ _App will be available on http://localhost:3000_
     ![Unit Test Example]( https://drive.google.com/file/d/10EArWr49LPCKXlfKKtO26Pe2G15Jalrs/view?usp=sharing)
 
 > 👉 **Full Test/Output Record:**  
-> For a detailed demo with all outputs (screenshots/video), see: [Assignment Proof Outputs](https://drive.google.com/file/d/your-proof-link)  
+> For a detailed demo with all outputs (screenshots/video), see: [Assignment Proof Outputs](https://drive.google.com/file/d/1BbRWADxY9RF2IveNskdH1Vmg8r-V07DP/view?usp=sharing)  
 > _Or, upload your compiled screenshots/video to a cloud drive, then place the **shared link here** for your mentor to review._
 
 ---
